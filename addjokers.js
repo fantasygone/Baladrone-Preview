@@ -48,12 +48,12 @@ let wicked_jokers = [
   {
     name: "Destroyer",
     text: [
-      "Destroys first scored card {C:attention}directly above [rank]{} and gains {C:mult}+1{} Mult",
+      "Destroys first scored card {C:attention}directly above [rank]{}",
       "{s:0.8}Rank changes when triggered{}",
       "{C:inactive}(Currently {C:mult}+0{C:inactive} Mult)",
     ],
     image_url: "img/j_destroyer.png",
-    rarity: "Uncommon"
+    rarity: "Common"
   }
 ]
 
