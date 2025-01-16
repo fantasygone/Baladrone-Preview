@@ -34,6 +34,15 @@ let joker_jokers = [
     rarity: "Common"
   },
   {
+    name: "Bugged Trap",
+    text: [
+      "{C:green}1 in 5{} chance for this Joker to retrigger the {C:attention}Joker{} to the left each time up to {C:attention}3{} times",
+      "{C:inactive}(Luck-altering Jokers affect first retrigger only){}",
+    ],
+    image_url: "img/j_bugged_trap.png",
+    rarity: "Uncommon"
+  },
+  {
     name: "Flipper",
     text: [
       "Before scoring, played {C:attention}6s{} turns into {C:attention}9s{} and vice versa",
@@ -61,8 +70,8 @@ let keeper_jokers = [
     name: "Restoration",
     text: [
       "Restores debuffed cards every {C:attention}10{} {C:inactive}[0]{} scoring cards played",
-      "{C:inactive}(includes Joker cards){}",
-      "{C:inactive}(dispels self-debuffs){}"
+      "{C:inactive}(Includes Joker cards){}",
+      "{C:inactive}(Dispels self-debuffs){}"
     ],
     image_url: "img/j_restoration.png",
     rarity: "Uncommon"
@@ -146,7 +155,7 @@ let card_modifications = [
     name: "Rank Seal",
     text: [
       "When this card is played and scores, increase rank by {C:attention}1{}",
-      "{C:inactive}(cannot be applied to Aces){}",
+      "{C:inactive}(Cannot be applied to Aces){}",
     ],
     image_url: "img/seal_rank.png",
     rarity: "Seal"
