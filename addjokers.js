@@ -97,6 +97,18 @@ let drifter_jokers = [
   },
 ]
 
+let spectre_jokers = [
+  {
+    name: "Random Teleport",
+    text: [
+      "{C:green}1 in 2{} chance for this Joker to create {C:attention}1{} random {C:attention}temporary consumable{} at the start of the {C:attention}shop{}",
+      "{C:inactive}(Must have room){}",
+    ],
+    image_url: "img/j_random_teleport.png",
+    rarity: "Uncommon"
+  },
+]
+
 // works the same. 
 let consumables = [
   // {
@@ -400,6 +412,13 @@ if (drifter_jokers.length === 0) {
 } else {
   let drifter_div = document.querySelector(".drifter");
   add_cards_to_div(drifter_jokers, drifter_div);
+}
+
+if (spectre_jokers.length === 0) {
+  document.querySelector(".spectrefull").style.display = "none"
+} else {
+  let spectre_div = document.querySelector(".spectre");
+  add_cards_to_div(spectre_jokers, spectre_div);
 }
 
 if (consumables.length === 0) {
