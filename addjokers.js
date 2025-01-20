@@ -104,6 +104,14 @@ let hacker_jokers = [
     image_url: "img/j_downwards_escalator.png",
     rarity: "Rare"
   },
+  {
+    name: "escalator_fan",
+    text: [
+      "{C:attention}Scaling{} Jokers will give {X:mult,C:white}X2{} Mult when held in hand",
+    ],
+    image_url: "img/j_escalator_fan.png",
+    rarity: "Legendary"
+  },
 ]
 
 let drifter_jokers = [
