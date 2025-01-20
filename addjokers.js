@@ -85,6 +85,26 @@ let keeper_jokers = [
     rarity: "Legendary"
   },
 ]
+let hacker_jokers = [
+  {
+    name: "Upwards Escalator",
+    text: [
+      "Gains {C:mult}+1{} Mult or {C:mult}+2{} Mult at the end of every {C:attention}round{}",
+      "{C:inactive}(Currently{} {C:mult}+0{} {C:inactive}Mult){}",
+    ],
+    image_url: "img/j_upwards_escalator.png",
+    rarity: "Common"
+  },
+  {
+    name: "Downwards Escalator",
+    text: [
+      "Ante increases after beating {C:attention}2 Boss Blinds{}",
+      "{S:1.1,C:red,E:2}self destructs{}",
+    ],
+    image_url: "img/j_downwards_escalator.png",
+    rarity: "Rare"
+  },
+]
 
 let drifter_jokers = [
   {
@@ -101,7 +121,7 @@ let spectre_jokers = [
   {
     name: "Random Teleport",
     text: [
-      "{C:green}1 in 2{} chance for this Joker to create {C:attention}1{} random {C:attention}temporary consumable{} at the start of the {C:attention}shop{}",
+      "{C:green}1 in 2{} chance for this Joker to create {C:attention}1{} random {C:attention}temporary{} {C:tarot}Tarot{} or {C:spectral}Spectral{} card at the start of the {C:attention}shop{}",
       "{C:inactive}(Must have room){}",
     ],
     image_url: "img/j_random_teleport.png",
@@ -405,6 +425,13 @@ if (keeper_jokers.length === 0) {
 } else {
   let keeper_div = document.querySelector(".keeper");
   add_cards_to_div(keeper_jokers, keeper_div);
+}
+
+if (hacker_jokers.length === 0) {
+  document.querySelector(".hackerfull").style.display = "none"
+} else {
+  let hacker_div = document.querySelector(".hacker");
+  add_cards_to_div(hacker_jokers, hacker_div);
 }
 
 if (drifter_jokers.length === 0) {
