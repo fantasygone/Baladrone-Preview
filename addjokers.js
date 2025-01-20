@@ -98,7 +98,7 @@ let hacker_jokers = [
   {
     name: "Downwards Escalator",
     text: [
-      "{C:attention}Ante{} increases after beating {C:attention}2{} Boss Blinds",
+      "Prevents {C:attention}Ante{} from going up after beating a {C:attention}Boss Blind{}",
       "{S:1.1,C:red,E:2}self destructs{}",
     ],
     image_url: "img/j_downwards_escalator.png",
