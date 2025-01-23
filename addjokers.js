@@ -66,7 +66,8 @@ let wicked_jokers = [
   {
     name: "Bend Down",
     text: [
-      "Decreases Blind {C:attention}size{} by {C:attention}1%{} per each card discarded during the {C:attention}first hand{} of round"
+      "Decreases Blind {C:attention}size{} by {C:attention}1%{} per each card discarded during the {C:attention}first hand{} of round",
+      "{C:inactive}(Once per round){}"
     ],
     image_url: "img/j_bend_down.png",
     rarity: "Uncommon"
