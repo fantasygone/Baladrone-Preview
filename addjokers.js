@@ -2,8 +2,7 @@ let neutral_jokers = [
   {
     name: "Broken Drone",
     text: [
-      "Destroys Jokers that try to {C:attention}copy{} this Joker",
-      "Gains {X:mult,C:white}X0.75{} Mult per card destroyed this way",
+      "If this Joker is {C:attention}copied{}, it gains {X:mult,C:white}X0.75{} Mult and destroys any Joker attempting to {C:attention}copy{} it",
       "{C:inactive}(Currently {X:mult,C:white}X1.5 {C:inactive} Mult)",
     ],
     image_url: "img/j_broken_drone.png",
