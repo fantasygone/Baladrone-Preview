@@ -73,7 +73,7 @@ let wicked_jokers = [
   {
     name: "Damage",
     text: [
-      "If {C:attention}poker hand{} is a {C:attention}Three of a Kind{}, destroys every {C:attention}other{} card {C:attention}in hand{}",
+      "If {C:attention}poker hand{} is a {C:attention}Three of a Kind{}, destroys every {C:attention}other{} card held {C:attention}in hand{}",
     ],
     image_url: "img/j_damage.png",
     rarity: "Uncommon"
